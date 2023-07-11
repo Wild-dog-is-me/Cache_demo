@@ -1,0 +1,8 @@
+spring:
+    cache:
+        ehcache:
+            config: classpath:ehcache/ehcache.xml
+    datasource:
+        url: jdbc:mysql://localhost:3306/test02
+        username: root
+        password: root
